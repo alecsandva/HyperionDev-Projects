@@ -1,5 +1,6 @@
-age = int(input("How old are you? Please enter a number: "))
 
+#getting input from user
+age = int(input("How old are you? Please enter a number: "))
 if age > 100:
     print("Sorry, you're dead.")
 elif age >= 65:
